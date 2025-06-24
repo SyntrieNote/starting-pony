@@ -8,7 +8,7 @@ regex==2023.12.25
 # NLP / AI tools
 nltk==3.8.1
 transformers==4.40.1
-torch==2.3.0
+torch==2.7.1
 
 # Export formats (PDF, CSV, etc.)
 fpdf==1.7.2
