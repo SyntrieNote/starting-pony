@@ -1,19 +1,14 @@
-Flask==2.3.2
+# Web framework
+Flask==3.0.3
 flask-cors==4.0.0
 gunicorn==21.2.0
 
-# Regex and DLP-related tools
+# Regex and text processing
 regex==2023.12.25
-
-# NLP / AI tools
 nltk==3.8.1
-transformers==4.40.1
-torch==2.7.1
 
-# Export formats (PDF, CSV, etc.)
-fpdf==1.7.2
-pandas==2.2.2
+# PDF generation (modern & well-supported)
+reportlab==4.1.0
 
-# Environment and utility tools
-python-dotenv==1.0.1
-requests==2.31.0
+# Data handling (lightweight alt to pandas)
+pyarrow==15.0.2
